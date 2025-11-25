@@ -1,0 +1,20 @@
+{
+  "name": "solid-exercise",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "ts-node src/app.ts",
+    "demo:srp": "ts-node src/01-single-responsibility-principle/index.ts",
+    "demo:ocp": "ts-node src/02-open-closed-principle/index.ts",
+    "demo:lsp": "ts-node src/03-liskov-substitution-principle/index.ts",
+    "demo:isp": "ts-node src/04-interface-segregation-principle/index.ts",
+    "demo:dip": "ts-node src/05-dependency-inversion-principle/index.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
